@@ -21,5 +21,3 @@ DevOps 入門課 **ch3〈Unit Test〉+ ch4〈GitHub Actions CI〉** 的極簡範
 | `examples/pytest-basics/` | ch3 範例 1：純函式 `check_machine` + `test_check.py` |
 | `.github/workflows/ci.yml` | ch3/ch4：push / PR 自動跑 pytest |
 
-## Test
-1, 2
