@@ -38,8 +38,7 @@ jobs:
           context: .
           push: true
           tags: |
-            ghcr.io/4-learn/devops-demo:${{ github.sha }}
-            ghcr.io/4-learn/devops-demo:latest
+            ghcr.io/4-learn/devops-demo:${{ github.sha }},ghcr.io/4-learn/devops-demo:latest
 
       - name: Update Config Repo
         env:
